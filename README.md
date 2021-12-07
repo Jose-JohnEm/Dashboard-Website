@@ -2,6 +2,17 @@
 
 Clac board est un dashboard musique, il contient 3 services qui sont deezer, spotify et youtube pour nos utilisateurs. Vous pouvez ajouter les widgets que vous voulez sur ce platform.
 <br/>
+## Lancer ClacBoard
+à installer tous les packages qu'on a utiliser pour clacboard
+```bash
+npm install
+```
+à lancer le programme
+```bash
+npm start
+```
+The frontend (main application) is available at http://localhost (on local env).
+<br/>
 
 # Frontend - ReactJS
 ## Introduction de ReactJS
@@ -19,7 +30,7 @@ L'API Fetch fournit une interface JavaScript pour l'accès et la manipulation de
 
 Ici nous récupérons l'access token d'une utilisateur. L'utilisation la plus simple de fetch() prend un argument — le chemin de la ressource que nous souhaitons récupérer — et retourne une promesse (promise) contenant, en réponse, un objet (de type Response).
 
-Bien sûr, il s'agit seulement d'une réponse HTTP, pas exactement du token. Pour extraire le contenu du token de la réponse, nous utilisons la méthode json() à transformettre
+Il s'agit simplement d'une réponse HTTP, pas exactement du token. Pour extraire le contenu du token de la réponse, nous utilisons la méthode json() à transformettre
 
 La réponse d'une requête fetch() est un objet Stream, ce qui signifie que lorsque nous appelons la méthode json(), une promesse est renvoyée puisque la lecture du flux se fera de manière asynchrone.
 
@@ -78,3 +89,4 @@ Sauf la partie des services musiques, vous pouvez également vous profiter sur l
 Vous pouvez utiliser cette partie même sans vous connecter sur notre ClacBoard.
 
 J'espère que notre dashboard vous plaît!
+
